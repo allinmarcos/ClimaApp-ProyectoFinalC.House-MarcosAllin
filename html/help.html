@@ -26,9 +26,35 @@
                 <li><a href="../html/add-city.html">Ayuda</a></li>
             </ul>
         </nav>
-        <h1>Proximamente solo en cines</h1>
     </header>
 
+    <main>
+        <div>
+            <h2>Ayuda Clima App v.4.0</h2>
+            <p><strong>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a
+                        target="_blank" href="https://openweathermap.org">OpenWheaterMap</a>.</strong></p>
+            <p><strong>Para poder consultar el clima, primero deberá <a href="add-city.html">Agregar una ciudad</a> y
+                    luego seleccionar la Ciudad en cuestión desde la página <a href="index.html">Clima</a>.</strong></p>
+        </div>
+        <div>
+            <section class="help">
+                <form class="help-form" action="#">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name"> <br />
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email"> <br />
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea cols="50" rows="10" name="area-de-texto" id="mensaje"></textarea><br />
+                    
+                    <div class="help-buttons">
+                    <button name="limpiar" id="boton-limpiar">Limpiar</button>
+                    <button name="enviar" id="boton-enviar">Enviar</button>
+                    </div> 
+                </form>  
+                <p class="message" id="invalid-email-error">Ingrese un Email válido</p>
+            </section>
+        </div>
+    </main>
 
     <footer>
         <p>
