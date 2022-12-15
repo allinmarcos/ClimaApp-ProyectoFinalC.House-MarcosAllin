@@ -1,3 +1,6 @@
+ /* proximamente, solo en cines. 
+ JUANCAA ignorá esto, es sólo el esqueleto de lo que va a hacer la help page. Lo dejo pq en las otras dos páginas me quedó el navbar armado y si quito esta página queda peor  */
+
 .help {
     display: flex;
     flex-direction: column;
